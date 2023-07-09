@@ -1,1 +1,3 @@
 Welcome to the Payroll Engine...
+
+Continue to the [Wiki](https://github.com/Payroll-Engine/PayrollEngine/wiki)
