@@ -1,0 +1,1 @@
+To report a security issue, please send an email to [payrollengine.org](mailto:info@payrollengine.org) with a description of the issue, the steps you took to create the issue, the versions affected, and mitigations for the issue, if known. This project follows a 90-day disclosure timeline.
