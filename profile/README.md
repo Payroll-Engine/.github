@@ -45,22 +45,6 @@ Embed it via **REST API**, deploy it via **Docker**, or automate it with the **.
 | **Regulator** | Payroll consultants, HR specialists | No-Code Actions · C# Scripting |
 | **Automator** | DevOps, integration engineers | .NET Client Services SDK · CLI |
 
-## Repositories
-
-| Repository | Description |
-|:--|:--|
-| [PayrollEngine](https://github.com/Payroll-Engine/PayrollEngine) | Main repo — Docker stack, examples, tests, schemas |
-| [PayrollEngine.Backend](https://github.com/Payroll-Engine/PayrollEngine.Backend) | REST API server + SQL Server persistence |
-| [PayrollEngine.WebApp](https://github.com/Payroll-Engine/PayrollEngine.WebApp) | Blazor web application |
-| [PayrollEngine.PayrollConsole](https://github.com/Payroll-Engine/PayrollEngine.PayrollConsole) | CLI for automation, testing, and data import |
-| [PayrollEngine.Client.Services](https://github.com/Payroll-Engine/PayrollEngine.Client.Services) | .NET Client SDK (NuGet entry package) |
-| [PayrollEngine.Client.Scripting](https://github.com/Payroll-Engine/PayrollEngine.Client.Scripting) | Scripting API for regulation development |
-| [PayrollEngine.Client.Core](https://github.com/Payroll-Engine/PayrollEngine.Client.Core) | Client core objects |
-| [PayrollEngine.Client.Test](https://github.com/Payroll-Engine/PayrollEngine.Client.Test) | Test runner library |
-| [PayrollEngine.Core](https://github.com/Payroll-Engine/PayrollEngine.Core) | Core payroll objects |
-| [PayrollEngine.Document](https://github.com/Payroll-Engine/PayrollEngine.Document) | Report generation |
-| [PayrollEngine.Serilog](https://github.com/Payroll-Engine/PayrollEngine.Serilog) | Structured logging |
-
 ## Quick Start
 
 ```sh
@@ -79,6 +63,24 @@ docker compose -f docker-compose.ghcr.yml up -d
 Web Application: `http://localhost:8081` · Backend API: `http://localhost:5001`
 
 → [Full setup guide](https://payrollengine.org/GetStarted/ContainerSetup/)
+
+## Repositories
+
+| Repository | Description |
+|:--|:--|
+| [PayrollEngine](https://github.com/Payroll-Engine/PayrollEngine) | Main repo — Docker stack, examples, tests, schemas |
+| [PayrollEngine.Backend](https://github.com/Payroll-Engine/PayrollEngine.Backend) | REST API server + SQL Server persistence |
+| [PayrollEngine.WebApp](https://github.com/Payroll-Engine/PayrollEngine.WebApp) | Blazor web application |
+| [PayrollEngine.PayrollConsole](https://github.com/Payroll-Engine/PayrollEngine.PayrollConsole) | CLI for automation, testing, and data import |
+| [PayrollEngine.Client.Services](https://github.com/Payroll-Engine/PayrollEngine.Client.Services) | .NET Client SDK (NuGet entry package) |
+| [PayrollEngine.Client.Scripting](https://github.com/Payroll-Engine/PayrollEngine.Client.Scripting) | Scripting API for regulation development |
+| [PayrollEngine.Client.Core](https://github.com/Payroll-Engine/PayrollEngine.Client.Core) | Client core objects |
+| [PayrollEngine.Client.Test](https://github.com/Payroll-Engine/PayrollEngine.Client.Test) | Test runner library |
+| [PayrollEngine.Core](https://github.com/Payroll-Engine/PayrollEngine.Core) | Core payroll objects |
+| [PayrollEngine.Document](https://github.com/Payroll-Engine/PayrollEngine.Document) | Report generation |
+| [PayrollEngine.Serilog](https://github.com/Payroll-Engine/PayrollEngine.Serilog) | Structured logging |
+
+→ [Full repository map](https://payrollengine.org/Resources/Repositories/)
 
 ## License
 
